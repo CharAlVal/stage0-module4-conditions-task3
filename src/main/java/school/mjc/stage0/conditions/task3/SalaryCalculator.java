@@ -3,7 +3,7 @@ package school.mjc.stage0.conditions.task3;
 public class SalaryCalculator {
     public void calculateSalary(int salary) {
         float perCent;
-        if(salary <= 10000){
+        if(salary >= 1 && salary <=10000 ){
             perCent = ((salary/2)/10)*3f;
             System.out.println(salary-perCent);
         }
