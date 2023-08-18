@@ -31,7 +31,8 @@ public class AlphabeticCharacters {
         }
         if(character > 85 && character <= 90 || character > 117 && character <= 122){
             System.out.println("Consonant");
-        }else{
+        }
+        if(character < 65 || character > 90 && character < 97 || character > 122){
             System.out.println("wrong alphabet!");
         }
     }
